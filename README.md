@@ -1,5 +1,5 @@
 <html lang="en" class="no-js">
-
+<title>Péters Zimmer</title>
 <head>
 </head>
 
