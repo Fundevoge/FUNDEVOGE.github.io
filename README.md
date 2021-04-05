@@ -1,6 +1,7 @@
 <html lang="en" class="no-js">
-<title>Péters Zimmer</title>
+
 <head>
+  <title>Péters Zimmer</title>
 </head>
 
 <body>
