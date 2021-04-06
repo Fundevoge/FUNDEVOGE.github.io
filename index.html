@@ -86,32 +86,20 @@
                        ><img src="p_31.png"
                        ></div>
     
-    
-    <!-- jQuery -->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+      
+      <div class="popup" id="popup-0">
+        <div class="overlay"></div>
+        <div class="content">
+          <div class="close-btn" onclick="togglePopup()">&times;</div>
+          <h2>A Box</h2>
+          <p>Some Text</p>
+      </div>
+      <button onclick="togglePopup()"><img src="plan_peter.png"></button>
+        
     <script>
-    $(".Click-here0").on('click', function() {
-      $(".custom-model-main0").addClass('model-open0');
-    }); 
-    $(".close-btn0, .bg-overlay").click(function(){
-      $(".custom-model-main0").removeClass('model-open0');
-    });
+      function togglePopup(){
+        document.getElementById("popup-1").classList.toggle("active");}
     </script>
-    <script>
-    $(".Click-here1").on('click', function() {
-      $(".custom-model-main1").addClass('model-open1');
-    }); 
-    $(".close-btn1, .bg-overlay").click(function(){
-      $(".custom-model-main1").removeClass('model-open1');
-    });
-    </script>
-    <script>
-    $(".Click-here2").on('click', function() {
-      $(".custom-model-main2").addClass('model-open2');
-    }); 
-    $(".close-btn2, .bg-overlay").click(function(){
-      $(".custom-model-main2").removeClass('model-open2');
-    });
-    </script>
+        
   </body>
 </html>
