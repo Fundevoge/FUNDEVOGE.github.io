@@ -15,9 +15,13 @@ body {
 }
 h2 {
     font-size: 64px;
+    padding: 0px 0;
+    margin: 0 auto;
 }
 p {
     font-size: 56px;
+    padding: 0px 0;
+    margin: 0 auto;
 }
 .Click-here {
   cursor: pointer;
@@ -127,7 +131,7 @@ p {
     .close-btn {
       position: absolute;
       right: 0;
-      top: -30px;
+      top: -60px;
       cursor: pointer;
       z-index: 99;
       font-size: 80px;
