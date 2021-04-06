@@ -14,25 +14,12 @@
     </div>
       
     <div id="row">
-      <button onclick="togglePopup('1')"><img src="p_3_nl.png"></button>
-    </div>
-    <img src="p_4_bg.png">
-      
-    <div id="row"><button class="Click-here2"><img src="p_5.png"></button> 
-        <div class="custom-model-main2">
-          <div class="custom-model-inner">
-            <div class="close-btn2">×</div>
-            <div class="custom-model-wrap">
-              <div class="pop-up-content-wrap">
-                <h2>Nachtaktiv</h2>
-                <p>Kennen Sie diese Morgen, an denen Sie sich wach und ausgeschlafen fühlen? Ich auch nicht. Aber für einen gehörigen Produktivitätsschub zur späten Stunde nimmt man sowas mal gerne in Kauf. </p>
-              </div>
-            </div>
-          </div>
-          <div class="bg-overlay"></div>
-        </div>
+      <button onclick="togglePopup('2')"><img src="p_3_nl.png"></button>
+      <img src="p_4_bg.png">
+      <button onclick="togglePopup('1')"><img src="p_5.png"></button>
       <img src="p_6_bg.png">
     </div>    
+    
     <div id="row"><img src="p_7_nl.png"
                        ><img src="p_8_bg.png"
                        ><img src="p_9.png"
@@ -77,6 +64,12 @@
         <div class="content">
           <div class="close-btn" onclick="togglePopup('1')">&times;</div>
           <iframe src="t1.htm" style="width:100%;height:780px;border:5px solid #ddd"></iframe>
+    </div>
+    <div class="popup" id="popup-2">
+        <div class="overlay"></div>
+        <div class="content">
+          <div class="close-btn" onclick="togglePopup('2')">&times;</div>
+          <iframe src="t2.htm" style="width:100%;height:780px;border:5px solid #ddd"></iframe>
     </div>
     <script>
         function togglePopup(x){
