@@ -4,7 +4,6 @@ body {
 #wrapper, img{
     width: 250%;
     height: 250%;
-    float: center;
     text-align: center;
     vertical-align: middle;
 }
