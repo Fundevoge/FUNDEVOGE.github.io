@@ -8,14 +8,16 @@ body {
     vertical-align: middle;
 }
 .header{
-    font-size: 48px;
+    font-size: 72px;
     text-align: center;
+    padding: 0px 0;
+    margin: 0 auto;
 }
 h2 {
-    font-size: 40px;
+    font-size: 64px;
 }
 p {
-    font-size: 32px;
+    font-size: 56px;
 }
 .Click-here {
   cursor: pointer;
