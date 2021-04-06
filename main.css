@@ -43,12 +43,11 @@ p {
 .Click-here {
   cursor: pointer;
   background-image: linear-gradient(190deg, #f83600 0%, #fee140 100%);
-  text-align: center;
   font-size:0px;
   padding: 0px 0;
   margin: 0 auto;
-  vertical-align: middle;
   transition:background-image 3s ease-in-out;
+  border: 0px solid #000000;
 }
 .Click-here:hover{
   transition:background-image 3s ease-in-out;
