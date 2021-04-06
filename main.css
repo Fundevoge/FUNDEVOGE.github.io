@@ -4,6 +4,7 @@ body {
 #wrapper, img{
     width: 200%;
     height: 200%;
+    text-align: center;
 }
 .header{
     font-size: 48px;
