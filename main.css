@@ -1,6 +1,12 @@
 body {
     font-family: monospace;
 }
+h1{
+    font-size: 72px;
+    text-align: center;
+    padding: 0px 0;
+    margin: 0 auto;
+}
 .wrapper{
     width: 250%;
     height: 250%;
