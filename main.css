@@ -15,6 +15,8 @@ body {
 }
 #images {
     white-space: nowrap;
+    padding: 0px 0;
+    margin: 0 auto;
 }
 h2 {
     font-size: 64px;
