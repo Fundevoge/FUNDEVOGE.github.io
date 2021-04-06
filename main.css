@@ -40,16 +40,65 @@ p {
     padding: 0;
     margin: 0;
 }
-.Click-here {
+.Click-here0 {
   cursor: pointer;
-  
+  font-size:0px;
+  padding: 0px 0;
+  margin: 0 auto;
+  border: 0px solid #000000;
+}
+.Click-here1 {
+  cursor: pointer;
+  font-size:0px;
+  padding: 0px 0;
+  margin: 0 auto;
+  border: 0px solid #000000;
+}
+.Click-here2 {
+  cursor: pointer;
   font-size:0px;
   padding: 0px 0;
   margin: 0 auto;
   border: 0px solid #000000;
 }
 
-.custom-model-main {
+.custom-model-main0 {
+  text-align: center;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; /* z-index: 1050; */
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear, z-index 0.15;
+  -o-transition: opacity 0.15s linear, z-index 0.15;
+  transition: opacity 0.15s linear, z-index 0.15;
+  z-index: -1;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.custom-model-main1 {
+  text-align: center;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; /* z-index: 1050; */
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear, z-index 0.15;
+  -o-transition: opacity 0.15s linear, z-index 0.15;
+  transition: opacity 0.15s linear, z-index 0.15;
+  z-index: -1;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.custom-model-main2 {
   text-align: center;
   overflow: hidden;
   position: fixed;
