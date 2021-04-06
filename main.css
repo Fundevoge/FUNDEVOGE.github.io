@@ -117,11 +117,22 @@ p {
   overflow-y: auto;
 }
 
-.model-open {
+.model-open0 {
   z-index: 99999;
   opacity: 1;
   overflow: hidden;
 }
+.model-open1 {
+  z-index: 99999;
+  opacity: 1;
+  overflow: hidden;
+}
+.model-open2 {
+  z-index: 99999;
+  opacity: 1;
+  overflow: hidden;
+}
+
 
 .custom-model-inner {
       -webkit-transform: translate(0, -25%);
@@ -186,7 +197,25 @@ p {
       transition: background 0.15s linear;
     }
 
-    .close-btn {
+    .close-btn0 {
+      position: absolute;
+      right: 0;
+      top: -60px;
+      cursor: pointer;
+      z-index: 99;
+      font-size: 80px;
+      color: #fff;
+    }
+.close-btn1 {
+      position: absolute;
+      right: 0;
+      top: -60px;
+      cursor: pointer;
+      z-index: 99;
+      font-size: 80px;
+      color: #fff;
+    }
+.close-btn2 {
       position: absolute;
       right: 0;
       top: -60px;
