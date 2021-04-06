@@ -8,19 +8,18 @@
     <div class="header"><h1>Péters Zimmer</h1></div>
     <div id="row">
       <img src="p_0_bg.png">
-      <button class="Click-here0"><img src="p_1.png"></button> 
-        <div class="custom-model-main0">
-          <div class="custom-model-inner">
-            <div class="close-btn0">×</div>
-            <div class="custom-model-wrap">
-              <div class="pop-up-content-wrap">
-                <h2>Das ist doch nicht scharf!</h2>
-                <p>Als waschechter Ungar gehört natürlich eine Chili-Topfpflanze ins Zimmer, um für deutsche Verhältnisse „scharfe“ Gericht auch wirklich scharf kochen zu können. Generell hat man stets das Gefühl, Péter ist Ungarn sehr verbunden, wie er immer über z.B. „unseren Präsidenten“ redet, stets davon überzeugt ist, dass Ungarisch die logischste und praktischste Sprache der Welt ist, und wirklich mitleidet, wenn schlechte Nachrichten aus seinem Heimatland zu dessen politischer Situation eintreffen.</p>
-              </div>
-            </div>
-          </div>
-          <div class="bg-overlay"></div>
+      <div class="popup" id="popup-0">
+        <div class="overlay"></div>
+        <div class="content">
+          <div class="close-btn" onclick="togglePopup()">&times;</div>
+          <h2>Das ist doch nicht scharf!</h2>
+          <p>Als waschechter Ungar gehört natürlich eine Chili-Topfpflanze ins Zimmer, um für deutsche Verhältnisse „scharfe“ Gericht auch wirklich scharf kochen zu können. Generell hat man stets das Gefühl, Péter ist Ungarn sehr verbunden, wie er immer über z.B. „unseren Präsidenten“ redet, stets davon überzeugt ist, dass Ungarisch die logischste und praktischste Sprache der Welt ist, und wirklich mitleidet, wenn schlechte Nachrichten aus seinem Heimatland zu dessen politischer Situation eintreffen.</p>
       </div>
+      <button onclick="togglePopup("0")"><img src="p_1.png"></button>
+      <script>
+        function togglePopup(var x){
+          document.getElementById("popup-"+x).classList.toggle("active");}
+      </script>
       <img src="p_2_bg.png">
     </div>
     <div id="row"><button class="Click-here1"><img src="p_3_nl.png"></button> 
@@ -86,20 +85,6 @@
                        ><img src="p_31.png"
                        ></div>
     
-      
-      <div class="popup" id="popup-0">
-        <div class="overlay"></div>
-        <div class="content">
-          <div class="close-btn" onclick="togglePopup()">&times;</div>
-          <h2>A Box</h2>
-          <p>Some Text</p>
-      </div>
-      <button onclick="togglePopup()"><img src="plan_peter.jpg"></button>
-        
-    <script>
-      function togglePopup(){
-        document.getElementById("popup-0").classList.toggle("active");}
-    </script>
         
   </body>
 </html>
