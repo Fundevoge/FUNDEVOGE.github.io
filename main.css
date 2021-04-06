@@ -5,6 +5,7 @@ body {
     width: 200%;
     height: 200%;
     text-align: center;
+    vertical-align: middle;
 }
 .header{
     font-size: 48px;
@@ -26,6 +27,7 @@ p {
   padding: 18px 0;
   padding: 0px 0;
   margin: 0 auto;
+  vertical-align: middle;
   transition:background-image 3s ease-in-out;
 }
 .Click-here:hover{
