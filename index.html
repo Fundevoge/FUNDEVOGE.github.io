@@ -15,25 +15,16 @@
           <iframe src="t0.htm" style="width:100%;height:780px;border:5px solid #ddd"></iframe>
         </div>
       <button onclick="togglePopup('0')"><img src="p_1.png"></button>
-      <script>
-        function togglePopup(x){
-          var str = "popup-";
-          document.getElementById(str.concat(x)).classList.toggle("active");}
-      </script>
       <img src="p_2_bg.png">
     </div>
-    <div id="row"><button class="Click-here1"><img src="p_3_nl.png"></button> 
-        <div class="custom-model-main1">
-          <div class="custom-model-inner">
-            <div class="close-btn1">×</div>
-            <div class="custom-model-wrap">
-              <div class="pop-up-content-wrap">
-                <h2>Nein, da bin ich dagegen!</h2>
-                <p>Péter vertieft in einer politischen Diskussion mit einem Klassenkameraden.</p>
-              </div>
-            </div>
-          </div>
-          <div class="bg-overlay"></div>
+    <div id="row">
+      <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content">
+          <div class="close-btn" onclick="togglePopup('1')">&times;</div>
+          <iframe src="t0.htm" style="width:100%;height:780px;border:5px solid #ddd"></iframe>
+        </div>
+      <button onclick="togglePopup('1')"><img src="p_3_nl.png"></button>
       </div>
       <img src="p_4_bg.png">
       <div id="row"><button class="Click-here2"><img src="p_5.png"></button> 
@@ -84,7 +75,11 @@
     <div id="row"><img src="p_30_nl_bg.png"
                        ><img src="p_31.png"
                        ></div>
-    
+    <script>
+        function togglePopup(x){
+          var str = "popup-";
+          document.getElementById(str.concat(x)).classList.toggle("active");}
+    </script>
         
   </body>
 </html>
