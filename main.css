@@ -35,6 +35,7 @@ button {
   font-size:0px;
   padding: 0;
   margin: 0;
+  border: none;
 }
 h2 {
     font-size: 64px;
