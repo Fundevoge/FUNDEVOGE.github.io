@@ -4,8 +4,8 @@ body {
 h1{
     font-size: 72px;
     text-align: center;
-    padding: 0px 0;
-    margin: 0 auto;
+    padding: 0;
+    margin: 0;
 }
 .wrapper{
     width: 250%;
@@ -16,24 +16,24 @@ h1{
 .header{
     font-size: 72px;
     text-align: center;
-    padding: 0px 0;
-    margin: 0 auto;
+    padding: 0;
+    margin: 0;
 }
 #images {
     white-space: nowrap;
-    padding: 0px 0;
-    margin: 0 auto;
+    padding: 0;
+    margin: 0;
     font-size: 0;
 }
 h2 {
     font-size: 64px;
-    padding: 0px 0;
-    margin: 0 auto;
+    padding: 0;
+    margin: 0;
 }
 p {
     font-size: 56px;
-    padding: 0px 0;
-    margin: 0 auto;
+    padding: 0;
+    margin: 0;
 }
 .Click-here {
   cursor: pointer;
